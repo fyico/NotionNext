@@ -71,7 +71,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi，我是一个普通的Synthsizer V翻调P主, Hi，我是一个普通的 SO-VITS-SVC 创作者,我喜欢邦邦,欢迎来到我的博客🎉',
+    'Hi，我是一个普通的邦邦人，欢迎来到我的博客🎉',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
