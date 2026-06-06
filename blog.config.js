@@ -75,7 +75,7 @@ CONTACT_BILIBILI: process.env.NEXT_PUBLIC_CONTACT_BILIBILI || 'https://space.bil
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    '我是Fuyuki（風由紀），一个普通的Synthesizer V 翻调P主 / SO-VITS-SVC 创作者，欢迎来到我的博客🎉',
+    '我是Fuyuki（風由紀），欢迎来到我的博客🎉',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
