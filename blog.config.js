@@ -28,6 +28,11 @@ const BLOG = {
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
 
+  // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
+CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'fuyuki@arisa.uk', // 邮箱地址 例如mail@tangly1024.com
+CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/fyico', // 你的github个人主页 例如 https://github.com/tangly1024
+CONTACT_BILIBILI: process.env.NEXT_PUBLIC_CONTACT_BILIBILI || 'https://space.bilibili.com/388555478', // B站主页
+  
   // 其它复杂配置
   // 原配置文件过长，且并非所有人都会用到，故此将配置拆分到/conf/目录下, 按需找到对应文件并修改即可
   ...require('./conf/comment.config'), // 评论插件
