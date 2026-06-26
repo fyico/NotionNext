@@ -77,6 +77,14 @@ CONTACT_BILIBILI: process.env.NEXT_PUBLIC_CONTACT_BILIBILI || 'https://space.bil
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
     '我是Fuyuki（風由紀），欢迎来到我的博客🎉',
 
+  // 欢迎语打字效果类型速度
+  GREETING_WORDS_TYPE_SPEED:
+    process.env.NEXT_PUBLIC_GREETING_WORDS_TYPE_SPEED || 200,
+
+  // 欢迎语打字效果回退速度
+  GREETING_WORDS_BACK_SPEED:
+    process.env.NEXT_PUBLIC_GREETING_WORDS_BACK_SPEED || 100,
+
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
